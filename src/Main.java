@@ -9,7 +9,7 @@ public class Main {
         int weightInKg = 98;
         // Вес в килограммах
 
-        int bmi = service.calculate(heightInMeters,weightInKg);
+        int bmi = service.calculate(heightInMeters, weightInKg);
 
         System.out.println(bmi);
     }
